@@ -125,7 +125,7 @@
 				<!--begin:Menu link-->
 				<a class="menu-link" href="https://preview.keenthemes.com/laravel/metronic/docs/changelog" target="_blank">
 					<span class="menu-icon">{!! getIcon('code', 'fs-2') !!}</span>
-					<span class="menu-title">Changelog v8.2.6</span>
+					<span class="menu-title">Changelog v8.2.7</span>
 				</a>
 				<!--end:Menu link-->
 			</div>
