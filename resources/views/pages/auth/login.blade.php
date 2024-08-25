@@ -13,14 +13,14 @@
 
             <!--begin::Subtitle-->
             <div class="text-gray-500 fw-semibold fs-6">
-                Your Social Campaigns
+                APP SMM Advocates
             </div>
             <!--end::Subtitle--->
         </div>
         <!--begin::Heading-->
 
         <!--begin::Login options-->
-        <div class="row g-3 mb-9">
+        {{--<div class="row g-3 mb-9">
             <!--begin::Col-->
             <div class="col-md-6">
                 <!--begin::Google link--->
@@ -43,7 +43,7 @@
                 <!--end::Google link--->
             </div>
             <!--end::Col-->
-        </div>
+        </div>--}}
         <!--end::Login options-->
 
         <!--begin::Separator-->
@@ -88,13 +88,13 @@
         <!--end::Submit button-->
 
         <!--begin::Sign up-->
-        <div class="text-gray-500 text-center fw-semibold fs-6">
+        {{--<div class="text-gray-500 text-center fw-semibold fs-6">
             Not a Member yet?
 
             <a href="{{ route('register') }}" class="link-primary">
                 Sign up
             </a>
-        </div>
+        </div>--}}
         <!--end::Sign up-->
     </form>
     <!--end::Form-->

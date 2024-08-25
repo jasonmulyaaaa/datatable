@@ -4,7 +4,9 @@ use App\Http\Controllers\Apps\PermissionManagementController;
 use App\Http\Controllers\Apps\RoleManagementController;
 use App\Http\Controllers\Apps\UserManagementController;
 use App\Http\Controllers\Auth\SocialiteController;
+use App\Http\Controllers\ClientController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\MatterController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,6 +31,10 @@ Route::middleware(['auth', 'verified'])->group(function () {
         Route::resource('/user-management/roles', RoleManagementController::class);
         Route::resource('/user-management/permissions', PermissionManagementController::class);
     });
+
+    Route::resource('client', ClientController::class);
+
+    Route::resource('matter', MatterController::class);
 
 });
 

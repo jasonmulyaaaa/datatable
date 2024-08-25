@@ -30,6 +30,14 @@ mix.options({
     }
 });
 
+// Default
+mix.js('resources/js/app.js', 'public/js')
+    .vue()
+    //.extract(['vue'])
+    .postCss('resources/css/app.css', 'public/css', [
+        //
+    ]);
+
 // Build 3rd party plugins css/js
 mix.sass('resources/mix/plugins.scss', `public/assets/plugins/global/plugins.bundle.css`).then(() => {
     // remove unused preprocessed fonts folder
