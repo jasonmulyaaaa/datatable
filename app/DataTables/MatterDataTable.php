@@ -47,6 +47,8 @@ class MatterDataTable extends DataTable
     /**
      * Get the dataTable columns definition.
      */
+
+    //definisikan kolomnya apa saja
     public function getColumns(): array
     {
         return [
@@ -75,6 +77,8 @@ class MatterDataTable extends DataTable
         return 'Matters_' . date('YmdHis');
     }
 
+
+    //function untuk render ke view
     public function customRender($view, $data = [], $mergerData = [])
     {
         if ($this->request()->has('dt_options')) {
